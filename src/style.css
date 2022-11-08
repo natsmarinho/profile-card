@@ -1,0 +1,28 @@
+:root{
+    background-color: #19A1AE;
+    font-size: 62.5%;
+}
+
+.first-circle{
+    width: 50%;
+    height: 30rem;
+    position: absolute;
+}
+
+.second-circle{
+    width: 60vw;
+    height: 80vw;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    opacity: 0.25;
+}
+
+.container{
+    position: absolute;
+    background: #FFFFFF;
+    width: 38vh;
+    height: 37.4rem;
+    top: 50vw;
+    left: 10vw;
+}
