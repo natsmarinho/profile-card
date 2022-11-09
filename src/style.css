@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 :root{
     background-color: #19A1AE;
     font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .first-circle{
@@ -21,8 +24,47 @@
 .container{
     position: absolute;
     background: #FFFFFF;
-    width: 38vh;
+    width: 40vh;
     height: 37.4rem;
     top: 50vw;
-    left: 10vw;
+    left: 9vw;
+    border-radius: 1.5rem;
+    position: absolute;
+}
+
+.bolhas{
+    width: 40vh;
+    position: absolute;
+}
+
+.perfil{
+    position: absolute;
+    top: 10vh;
+    left: 13.5vh;
+}
+
+.info{
+    position: absolute;
+    text-align: center;
+    line-height: 2.2rem;
+    top: 26vh;
+    left: 12vh;
+}
+
+.info h1{
+    font-weight: 700;
+    color: #2E3349;
+    font-size: 1.8rem;
+}
+
+.info span{
+    color: #6B7082;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.info p{
+    color: #6B7082;
+    font-weight: 400;
+    font-size: 1.4rem;
 }
