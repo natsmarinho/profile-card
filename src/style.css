@@ -68,3 +68,32 @@
     font-weight: 400;
     font-size: 1.4rem;
 }
+
+.media-info{
+    position: absolute;
+    display: flex;
+    top: 35vh;
+    border-top: 1px solid #E8E9EC;
+    width: 40vh;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.media-info h3{
+    color: #2E3349;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.media-info p{
+    color: #6B7082;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+}
+
+.follow, .likes, .photo{
+    padding-top: 2.4rem;
+}
+
+
+
