@@ -18,7 +18,7 @@
     position: absolute;
     top: 60%;
     left: 35%;
-    opacity: 0.25;
+    opacity: 0.4;
 }
 
 .container{
@@ -95,5 +95,85 @@
     padding-top: 2.4rem;
 }
 
+@media screen and (min-width: 412px){
+    .media-info{
+        top: 32vh;
+    }
+}
+
+@media screen and (max-height: 736px){
+    .container{
+        left: 12vw;
+    }
+    .media-info{
+        top: 35vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        left: 22vw;
+        height: 50rem;
+        border-radius: 2.3rem;
+    }
+
+    .perfil{
+        top: 12vh;
+        left: 15vh;
+    }
+
+    .info{
+        top: 26vh;
+        left: 14vh;
+    }
+}
+
+@media screen and (min-width: 1024px){
+   .container{
+       height: 55rem;
+   } 
+
+   .perfil{
+       top: 14vh;
+       left: 17vh;
+   }
+   
+   .info{
+       left: 16vh;
+   }
+}
+
+@media screen and (min-width: 1280px){
+    .container{
+        top: 15vw;
+        left: 35vw;
+        width: 45vh;
+        height: 40rem;
+    }
+
+    .second-circle{
+        top: 58%;
+        height: 30vw;
+        left: 38%;
+    }
+
+    .bolhas{
+        width: 45vh;
+    }
+
+    .info{
+        top: 32vh;
+    }
+
+    .media-info{
+        width: 45vh;
+        margin-top: 5rem;
+    }
+
+    .follow, .likes, .photo{
+        padding-top: 5rem;
+    }
+    
+}
 
 
